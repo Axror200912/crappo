@@ -1,0 +1,109 @@
+/* Check how section */
+
+#check_section {
+    background-color: var(--black-color);
+}
+
+.check_section {
+    padding-top: 10rem;
+}
+
+.check_section > h2 {
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
+
+.check_section > p {
+    text-align: center;
+    width: 48%;
+    margin: 0 auto;
+    margin-bottom: 6.4rem;
+}
+
+.calculate_box{
+    padding: 0 13rem;
+}
+
+.calculate_box > .calculate {
+    padding: 4.8rem;
+    border-radius: 1.6rem 1.6rem 0 0;
+    background: #FBFCFE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+.input_text::placeholder {
+    color: var(--black-color) !important;
+    font-family: Rubik;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.calculate > form > .input_text {
+    color: var(--black-color);
+    font-family: Rubik;
+    font-size: 2rem;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid var(--grey-color);
+    width: 100%;
+    padding: 1.1rem 15rem 1.1rem 0;
+    background-color: var(--white-color) !important;
+}
+
+.calculate > form > .hashes{
+    color: var(--black-color);
+    font-family: Rubik;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid var(--grey-color);
+    width: 20rem;
+    padding: 1rem 8rem 1rem 0;
+    display: inline-block;
+}
+
+/* Media query check section style css */
+
+@media screen and (max-width: 768px) {
+
+    .check_section > p {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    .calculate_box {
+        padding: 0 1rem;
+    }
+
+    .calculate {
+        display: block;
+        flex-direction: column;
+    }
+
+    .calculate > form {
+        display: block;
+        text-align: center;
+    }
+
+    .calculate > form > .input_text {
+        margin-bottom: 2rem;
+        width: 100%;
+        padding-right: 1rem;
+    }
+}

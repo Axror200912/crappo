@@ -1,0 +1,55 @@
+/* Fonts */
+
+@font-face {
+  font-family: Rubik;
+  src: url("/fonts/Rubik-Regular.ttf");
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("/fonts/Inter-Regular.ttf");
+}
+
+/* BASIC STYLE */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container{
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 12rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 3rem;
+  }
+}

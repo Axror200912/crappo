@@ -1,0 +1,151 @@
+/* Trade securely section */
+
+#trade_section {
+    background: #FAFBFF;
+    padding-bottom: 10rem; 
+}
+
+.ethereum_price{
+    background: var(--white-color);
+    border-radius: 0px 0px 1.6rem 1.6rem;
+    box-shadow: 0px 2px 2px 0px #391777;
+    padding: 4.8rem 4.8rem 4.8rem 4.8rem;
+    margin: 0 13rem;
+}
+
+.ethereum_price > small {
+    color: #3671E9;
+}
+
+.ethereum_price > h4 {
+    color: var(--black-color);
+    font-family: Rubik;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.7rem;
+    letter-spacing: 1.28px;
+    margin-top: 1.6rem;
+    margin-bottom: .4rem;
+}
+
+.ethereum_price > h4 > span{
+    color: #3671E9;
+}
+
+.ethereum_price > p {
+    color: #828282;
+    font-family: Rubik;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+    letter-spacing: 0.16px;
+}
+
+.trade_section > h2 {
+    color: var(--black-color);
+    text-align: center;
+    margin: 0 20%;
+    margin-top: 10rem;
+    margin-bottom: 6.4rem;
+}
+
+.trade_boxs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.trade_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    border-radius: 16px;
+    background: var(--white-color);
+    box-shadow: .4px .4px 2px .2px #391777;
+    padding: 4.8rem 3rem;
+}
+
+.trade_boxs > .trade_box:hover {
+    background-color: var(--black-colorr);
+}
+
+.trade_box > .img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.trade_box > .img > img {
+    width: 100%;
+}
+
+.trade_box > h3 {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    margin-top: 4.8rem;
+    margin-bottom: 1.6rem;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.8rem;
+    color: var(--black-color);
+}
+
+.trade_box > h3 > abbr {
+    text-align: center;
+    font-family: Rubik;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.7rem;
+    color: #BDBDBD;
+}
+
+.trade_box > p {
+    color: #828282;
+    text-align: center;
+}
+
+.trade_box > button {
+    margin-top: 2.5rem;
+}
+
+.trade_box > .img {
+    width: 6.4rem;
+    height: 6.4rem;
+    margin-top: 2.5rem;
+}
+
+.trade_box > .img > img {
+    width: 100%;
+}
+
+/* Media query check section style css */
+
+@media screen and (max-width: 768px) {
+
+    .ethereum_price {
+        margin: 0 1rem;
+    }
+
+    .trade_section > .h2_titel {
+        margin: 5rem 5%;
+    }
+
+    .trade_boxs {
+        display: block;
+        justify-content: center;
+    }
+
+    .trade_box {
+        width: 100%;
+        margin: 2rem auto;
+    }
+}

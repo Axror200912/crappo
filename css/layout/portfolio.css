@@ -1,0 +1,62 @@
+#portfolio_section {
+  background: #2b076e;
+}
+
+.section_info2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.invest_smart {
+  padding-bottom: 120px;
+}
+
+.section_img img {
+  width: 100%;
+}
+
+.center{
+  text-align: center;
+  padding: 100px;
+}
+
+.display{
+  display: flex;
+  justify-content: space-between;
+}
+
+.your_investment{
+  padding: 150px 0;
+}
+
+@media screen and (max-width:768px) {
+  .display{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .img3{
+    margin-left: -40px;
+  }
+
+  .section_text{
+    margin-left: 60px; 
+  }
+
+  .detailed_statistis{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .center{
+    text-align: start;
+    padding: 100px;
+    margin-left: -100px;
+  }
+}
+
+p{
+  padding: 10px 0;
+}
